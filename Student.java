@@ -8,7 +8,10 @@ public class Student
     private String course;
     private String email;
     private int studnum;
-
+	private int age;
+	private int dob;
+	private int contact;
+	
     //Method 1:DarleneVallejos
     public void getFname(String Fname)
     {
@@ -72,5 +75,32 @@ public class Student
     public int showStudentNo()
     {
         return studnum;
+    }
+	//Method 7: LeaDucusin
+	public void getAge(int age)
+	{
+		this.age = age;
+	}
+	 public int showAge()
+    {
+        return age;
+    }
+	//Method 8: LeaDucusin
+	public void getDateofBirth(int dob)
+	{
+		this.dob = dob;
+	}
+	 public int showDateofBirth()
+    {
+        return dob;
+    }
+	//Method 9: LeaDucusin
+	public void getContact(int contact)
+	{
+		this.contact = contact;
+	}
+	 public int showcontact()
+    {
+        return contact;
     }
 }
